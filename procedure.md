@@ -21,7 +21,7 @@
 这个具体路径要自己找，关键是找 libnvvp 和 bin 两个文件夹
 ## 三、下载pytorch
     pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121  
-简单粗暴，直接下载跟CUDA12.1相应的torch版本
+简单粗暴，直接下载跟CUDA12.1相应的torch版本，如下图
 ## 四、下载MMCV
     pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
 这里我在官网找的 , 其中我选 mmcv = 2.1.0，因为我下完 2.2.0后，用mmdection会出错，还要改里面 _init.py中最大最小版本。   
