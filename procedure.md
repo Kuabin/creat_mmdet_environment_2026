@@ -1,4 +1,4 @@
-# 配置mmdection环境
+# 配置mmdetection环境
 ## 一、用conda创建虚拟环境
 用anaconda prompt打开  
 
