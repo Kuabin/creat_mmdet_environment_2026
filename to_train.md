@@ -3,7 +3,8 @@
 2. 数据集准备（https://mmdetection.readthedocs.io/zh-cn/latest/user_guides/dataset_prepare.html）  
  >解压实在是太逆天了，我开始下来四个2007的压缩包和三个2012的压缩包 ，先在mmdetection中新建一个data文件夹，在再解压这几个压缩包时选到data，我最开始同时解压，好像一坨，然后我就一个一个解压，都解压在data下面，然后会自动合并出VOC2007和VOC2012
 
-文件夹结构如下 
+文件夹结构如下  
+
 ![文件结构](example.png)
 
 ## 具体训练：
