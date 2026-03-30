@@ -5,7 +5,7 @@
 
 文件夹结构如下  
 
-![文件结构](example.png)
+![文件结构](./image_set/example.png)
 
 ## 具体训练：
 1.  直接开始训练好吧，这样可以在work_dirs里面自动创建一个于配置文件同名的文件夹 
@@ -13,8 +13,8 @@
         python tools/train.py configs/xxx/your_config.py
     >关于work_dirs：   
     可以把work_dirs里面是实验，config里面是原始模板库。
-    ![work](work_dirs.png)
-    ![work_tow](2.png)
+    ![work](./image_set/work_dirs.png)
+    ![work_tow](./image_set/2.png)
 2.  训练  
 
         python .\tools\train.py `
