@@ -15,15 +15,21 @@
 里面选择 windows / x86_64 / **11**(这个可能有区别) / exe(local)  
 下载之后要添加环境变量  
 
-    > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp  
+```
+> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp  
 
-    > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin  
+> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin  
+```
 这个具体路径要自己找，关键是找 libnvvp 和 bin 两个文件夹
 ## 三、下载pytorch
-    pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121  
+```powershell
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121  
+```
 简单粗暴，直接下载跟CUDA12.1相应的torch版本
 ## 四、下载MMCV
-    pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
+```powershell
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html
+```
 这里我在官网找的 , 其中我选 mmcv = 2.1.0，因为我下完 2.2.0后，用mmdection会出错，还要改里面 _init.py中最大最小版本。   
 这是官网地址[MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html),可以找自己对应cuda 和 torch 的版本，如下图
 ![示例](./image_set/image.png)
